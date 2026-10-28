@@ -33,6 +33,7 @@ def provision(first, last, department, personal_email=None):
         "mailNickname": nickname,
         "userPrincipalName": upn,
         "department": department,
+        "usageLocation": "NG",
         "passwordProfile": {
             "forceChangePasswordNextSignIn": True,
             "password": password,
