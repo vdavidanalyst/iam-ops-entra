@@ -53,3 +53,8 @@
 **Symptom:** Sign-in log entries pulled through Graph showed a conditional access status but an empty policy list, while the portal showed the policies.
 **Cause:** The applied policy list is only returned to apps holding a Conditional Access read permission; the automation app only had AuditLog.Read.All.
 **Fix:** Added Policy.Read.ConditionalAccess (read-only) and re-ran the script, which then listed policy names per sign-in.
+
+### 12. Windows scheduled task reported success but produced no output
+**Symptom:** A scheduled task for the sign-in review returned result 0 and showed a last-run time, but no output or log file appeared. Two minimal test tasks (appending a line to a file) also produced nothing.
+**Checked:** The wrapper script and the task definition were correct; the wrapper worked when run by hand. The task account matched the signed-in user and the Task Scheduler service was running.
+**Outcome:** Cause not identified. The task was removed rather than left reporting success without running. No scheduled execution is claimed for the Entra scripts; the scheduling evidence comes from the Okta project (cron on a GCP VM). A result code of 0 is not proof that a task ran, so a scheduled job needs a log line of its own.
