@@ -50,6 +50,7 @@ Security defaults were disabled because they cannot run alongside Conditional Ac
 | CA03 | Require MFA for all users | All users | Require multifactor authentication | Enabled after the admin’s own MFA method was confirmed |
 
 Validation used the What If tool and a real sign-in, checked in the sign-in logs (Report-only tab) before enforcement.
+Sign-in logs confirm CA03 evaluated and was satisfied on a real sign-in, while CA01 and CA02 correctly did not apply.
 
 ## Why this goes further than the Okta edition
 
