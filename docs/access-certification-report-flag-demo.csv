@@ -1,0 +1,6 @@
+Name,UPN,Enabled,Groups,Last sign-in,Created,Flagged,Priority,Reason
+Alex Rivera,alex.rivera@<tenant>,TRUE,GRP-IT-Admin,28/10/2026,26/10/2026,Y,High,Inactive 0 days
+Jamie Chen,jamie.chen@<tenant>,TRUE,None,28/10/2026,26/10/2026,N,,
+Jordan Test,jordan.test@<tenant>,TRUE,GRP-Standard-Employee,Never,26/10/2026,Y,Normal,Never signed in; account is 1 days old
+Victor David Sarkibaka,kuro@<tenant>,TRUE,None,28/10/2026,25/10/2026,N,,
+Sam Okafor,sam.okafor@<tenant>,TRUE,GRP-Engineering,Never,26/10/2026,Y,Normal,Never signed in; account is 1 days old

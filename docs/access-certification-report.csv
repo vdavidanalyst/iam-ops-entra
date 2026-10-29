@@ -1,0 +1,6 @@
+Name,UPN,Enabled,Groups,Last sign-in,Created,Flagged,Priority,Reason
+Alex Rivera,alex.rivera@<tenant>,True,GRP-IT-Admin,2026-10-28,2026-10-26,N,,
+Jamie Chen,jamie.chen@<tenant>,True,None,2026-10-28,2026-10-26,N,,
+Jordan Test,jordan.test@<tenant>,True,GRP-Standard-Employee,Never,2026-10-26,N,,
+Victor David Sarkibaka,kuro@<tenant>,True,None,2026-10-28,2026-10-25,N,,
+Sam Okafor,sam.okafor@<tenant>,True,GRP-Engineering,Never,2026-10-26,N,,
